@@ -1,0 +1,32 @@
+            +---------------------+
+            |      Arduino Uno     |
+            +---------------------+
+            |  5V  ------------>  VCC (Pump, Valve) |
+            |  GND ------------>  GND (Pump, Valve) |
+            |  A0  ------------>  Soil Moisture Sensor (Signal) |
+            |  D1  ------------>  Relay Module IN1 (Pump) |
+            |  D2  ------------>  Relay Module IN2 (Urea Valve) |
+            |  D3  ------------>  Relay Module IN3 (Nitrogen Valve) |
+            |  D4  ------------>  ESP8266 RX |
+            |  D5  ------------>  ESP8266 TX |
+            |  3.3V ------------>  ESP8266 VCC |
+            |  GND ------------>  ESP8266 GND |
+            +---------------------+
+
+            +---------------------+
+            |     Relay Module    |
+            +---------------------+
+            |  IN1  ------------>  D1 (Pump Control) |
+            |  IN2  ------------>  D2 (Urea Valve Control) |
+            |  IN3  ------------>  D3 (Nitrogen Valve Control) |
+            |  VCC  ------------>  5V |
+            |  GND  ------------>  GND |
+            +---------------------+
+
+            +---------------------+
+            |    Soil Moisture Sensor |
+            +---------------------+
+            |  Signal ------------>  A0 |
+            |  VCC  ------------>  5V |
+            |  GND  ------------>  GND |
+            +---------------------+
